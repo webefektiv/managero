@@ -1,0 +1,385 @@
+{
+  "format": {
+    "name": "Admin Menu Editor configuration container",
+    "version": "1.0"
+  },
+  "settings": {
+    "plugin-visibility": {
+      "plugins": {
+        "codepress-admin-columns\/codepress-admin-columns.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "admin-columns-pro\/admin-columns-pro.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "admin-menu-editor\/menu-editor.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "admin-menu-editor-pro\/menu-editor.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "advanced-custom-fields-pro\/acf.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "ame-branding-add-on\/ame-branding-add-on.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "classic-editor\/classic-editor.php": {
+          "isVisibleByDefault": true,
+          "grantAccess": [],
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "custom-field-manager\/custom-field-manager.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "jetpack\/jetpack.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "loco-translate\/loco.php": {
+          "isVisibleByDefault": true,
+          "grantAccess": [],
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "material-admin\/mtrl-core.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "pfc-wp-efektiv\/pfc-wp-efektiv.php": {
+          "isVisibleByDefault": true,
+          "grantAccess": [],
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "redux-vendor-support-master\/redux-vendor-support.php": {
+          "isVisibleByDefault": true,
+          "grantAccess": [],
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "woocommerce\/woocommerce.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "woocommerce-services\/woocommerce-services.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "wp-toolbar-editor\/load.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "wp-jobsearch\/wp-jobsearch.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        },
+        "wp-jobsearch-demo-data\/wp-jobsearch-demo-data.php": {
+          "isVisibleByDefault": false,
+          "grantAccess": {
+            "role:administrator": false,
+            "role:editor": false,
+            "role:author": false,
+            "role:contributor": false,
+            "role:subscriber": false,
+            "role:jobsearch_candidate": false,
+            "role:jobsearch_employer": false,
+            "role:managero_candidate": false,
+            "role:managero_employer": false,
+            "role:translator": false,
+            "role:customer": false,
+            "role:shop_manager": false,
+            "user:sudo": true
+          },
+          "customName": "",
+          "customDescription": "",
+          "customAuthor": "",
+          "customSiteUrl": "",
+          "customVersion": ""
+        }
+      },
+      "grantAccessByDefault": {
+        "role:administrator": true,
+        "role:editor": false,
+        "role:author": false,
+        "role:contributor": false,
+        "role:subscriber": false,
+        "role:jobsearch_candidate": false,
+        "role:jobsearch_employer": false,
+        "role:managero_candidate": false,
+        "role:managero_employer": false,
+        "role:translator": false,
+        "role:customer": false,
+        "role:shop_manager": false,
+        "user:sudo": true
+      }
+    }
+  }
+}

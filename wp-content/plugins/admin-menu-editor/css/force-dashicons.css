@@ -1,0 +1,683 @@
+@charset "UTF-8";
+/*
+ Forcibly set menu icons to the selected custom Dashicons.
+
+ Problem:
+ Some plugins use CSS to assign icons to their admin menu items. Users want to change the icons.
+ In many cases, simply changing the icon URL doesn't work because the plugin CSS overrides it.
+
+ Workaround:
+ Add more CSS that overrides the icon styles that were set by other plugins.
+*/
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon {
+  /*
+  This file was automatically generated from /wp-includes/css/dashicons.css.
+  Last update: 2017-06-07T16:55:55+00:00
+  */
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon > .wp-menu-image::before {
+  font-family: "dashicons", sans-serif !important;
+  font-size: 20px !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-menu:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-site:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-media:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-page:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-comments:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-appearance:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-plugins:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-users:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-tools:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-settings:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-network:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-generic:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-home:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-collapse:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-filter:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-customizer:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-multisite:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-links:before, #adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-links:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-admin-post:before, #adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-standard:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-image:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-gallery:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-audio:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-video:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-chat:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-status:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-aside:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-format-quote:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-welcome-write-blog:before, #adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-welcome-edit-page:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-welcome-add-page:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-welcome-view-site:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-welcome-widgets-menus:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-welcome-comments:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-welcome-learn-more:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-image-crop:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-image-rotate:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-image-rotate-left:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-image-rotate-right:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-image-flip-vertical:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-image-flip-horizontal:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-image-filter:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-undo:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-redo:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-ul:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-ol:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-quote:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-alignleft:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-aligncenter:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-alignright:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-insertmore:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-spellcheck:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-distractionfree:before, #adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-expand:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-contract:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-kitchensink:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-underline:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-justify:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-textcolor:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-paste-word:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-paste-text:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-removeformatting:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-video:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-customchar:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-outdent:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-indent:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-help:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-strikethrough:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-unlink:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-rtl:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-break:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-code:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-paragraph:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-editor-table:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-align-left:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-align-right:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-align-center:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-align-none:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-lock:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-unlock:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-calendar:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-calendar-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-visibility:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-hidden:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-post-status:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-edit:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-post-trash:before, #adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-trash:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-sticky:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-external:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-leftright:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-sort:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-randomize:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-list-view:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-exerpt-view:before, #adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-excerpt-view:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-grid-view:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-move:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-hammer:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-art:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-migrate:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-performance:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-universal-access:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-universal-access-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-tickets:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-nametag:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-clipboard:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-heart:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-megaphone:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-schedule:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-wordpress:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-wordpress-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-pressthis:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-update:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-screenoptions:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-cart:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-feedback:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-cloud:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-translation:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-tag:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-category:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-archive:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-tagcloud:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-text:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-media-archive:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-media-audio:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-media-code:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-media-default:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-media-document:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-media-interactive:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-media-spreadsheet:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-media-text:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-media-video:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-playlist-audio:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-playlist-video:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-controls-play:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-controls-pause:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-controls-forward:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-controls-skipforward:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-controls-back:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-controls-skipback:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-controls-repeat:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-controls-volumeon:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-controls-volumeoff:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-yes:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-no:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-no-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-plus:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-plus-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-plus-alt2:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-minus:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-dismiss:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-marker:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-star-filled:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-star-half:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-star-empty:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-flag:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-info:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-warning:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-share:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-share1:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-share-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-share-alt2:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-twitter:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-rss:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-email:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-email-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-facebook:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-facebook-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-networking:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-googleplus:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-location:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-location-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-camera:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-images-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-images-alt2:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-video-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-video-alt2:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-video-alt3:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-vault:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-shield:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-shield-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-sos:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-search:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-slides:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-analytics:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-chart-pie:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-chart-bar:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-chart-line:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-chart-area:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-groups:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-businessman:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-id:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-id-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-products:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-awards:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-forms:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-testimonial:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-portfolio:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-book:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-book-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-download:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-upload:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-backup:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-clock:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-lightbulb:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-microphone:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-desktop:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-laptop:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-tablet:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-smartphone:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-phone:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-smiley:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-index-card:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-carrot:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-building:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-store:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-album:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-palmtree:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-tickets-alt:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-money:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-thumbs-up:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-thumbs-down:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-layout:before {
+  content: "" !important;
+}
+#adminmenu#adminmenu#adminmenu a.ame-has-custom-dashicon .dashicons-paperclip:before {
+  content: "" !important;
+}
+
+/*# sourceMappingURL=force-dashicons.css.map */

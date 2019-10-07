@@ -1,0 +1,1 @@
+[03-Oct-2019 08:39:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home2/managero/public_html/wp-includes/wp-db.php on line 1612

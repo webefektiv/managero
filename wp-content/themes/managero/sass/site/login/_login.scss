@@ -1,0 +1,53 @@
+.page-template-user-login-template {
+  .fullbg {
+    width: 100%;
+    background-color:#f6f6f6;
+  }
+  .jobsearch-plugin-default-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    //   padding: 0 110px;
+  }
+  .jobsearch-login-box h2 {
+    font-size: 24px;
+    margin: 0px 0px 11px 0px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: $oswald;
+  }
+  .btn-group-lg > .btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0;
+  }
+}
+
+input[type=text], input[type=email], input[type=url], input[type=password], input[type=search], input[type=number], input[type=tel], input[type=range], input[type=date], input[type=month], input[type=week], input[type=time], input[type=datetime], input[type=datetime-local], input[type=color], textarea {
+  border-radius: 0px;
+}
+
+.jobsearch-add-skills-wrap span {
+  border-radius: 0;
+}
+
+.jobsearch-user-form input[type="submit"] {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 38px;
+  border-radius: 2px;
+  border: 1px solid;
+  font-size: 13px;
+  background-color: #fcb13c;
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    border-color: #000;
+    color: #000;
+  }
+}

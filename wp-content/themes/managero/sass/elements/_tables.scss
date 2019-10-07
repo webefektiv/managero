@@ -1,0 +1,92 @@
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+#homepage, #searchWrap {
+  .ui-widget{
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 52px;
+    height: 52px;
+  }
+  a {
+    outline: 0;
+  }
+  input::-moz-focus-inner {
+    border: 0;
+  }
+  #nav-home, #nav-agajati {
+    padding-top: 20px;
+    .autoinput{
+      padding-left: 20px;
+    }
+    input{
+      background-color: #fff;
+      line-height: 50px;
+      padding: 0;
+      font-family: $opensans;
+      font-weight: 500;
+      color:#727c88;
+      outline: none;
+    }
+    input[type="text"] {
+      width: 280px;
+      line-height: 50px;
+      padding: 0;
+      padding-left: 20px;
+      float:left;
+    }
+    input[type="submit"] {
+      width: 100px;
+      line-height: 50px;
+      padding: 0;
+      float:left;
+      font-weight: bold;
+      text-transform: uppercase;
+      &:hover{
+        color:#fff;
+      }
+    }
+  }
+  .nav-tabs .nav-item {
+    margin-bottom: -2px;
+  }
+  .nav-tabs .nav-link {
+    border: none;
+    border-bottom: 4px solid transparent;
+    font-size: 18px;
+  }
+  .nav-tabs {
+    border-bottom: 2px solid #dee2e6;
+    padding-left: 20px;
+    max-width: 665px;
+    outline: none;
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      outline: none;
+    }
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid orange;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+  }
+  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border: none;
+    border-bottom: 4px solid orange;
+    outline: none;
+  }
+}
+#searchWrap{
+  background-image: url(http://managero.dev.webefektiv.ro/wp-content/uploads/2018/11/background-image.png);
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  height: 260px;
+}

@@ -1,0 +1,35 @@
+{
+  "dynamic-css-type": "custom"{
+  "primary-color": "#673AB7",
+  "floatingmenu-bg": {
+    "background-color": "#00B0FF"
+  },
+  "pace-color": "#03A9F4",
+  "link-color": {
+    "regular": "#673AB7",
+    "hover": "#424242"
+  },
+  "menu-bg": {
+    "background-color": "#424242"
+  },
+  "menu-color": "#ffffff",
+  "menu-hover-color": "#ffffff",
+  "submenu-color": "#E0E0E0",
+  "menu-primary-bg": "#212121",
+  "menu-secondary-bg": "transparent",
+  "box-head-bg": {
+    "background-color": "#03A9F4"
+  },
+  "box-head-color": "#ffffff",
+  "button-primary-bg": "#673AB7",
+  "button-primary-hover-bg": "#03A9F4",
+  "topbar-menu-bg": {
+    "background-color": "#673AB7"
+  },
+  "topbar-submenu-color": "#E0E0E0",
+  "topbar-submenu-bg": "#424242",
+  "topbar-submenu-hover-bg": "#212121",
+  "reduk_import_export": "",
+  "reduk-backup": 1
+}"reduk_import_export":"", "reduk-backup": 1
+}

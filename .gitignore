@@ -1,0 +1,16 @@
+# Project exclude paths
+/wp-content/plugins/admin-menu-editor/js/actor-manager.js
+/wp-content/plugins/admin-menu-editor/modules/actor-selector/actor-selector.js
+/wp-content/plugins/admin-menu-editor/modules/plugin-visibility/plugin-visibility.js
+/wp-content/plugins/admin-menu-editor-pro/extras/modules/dashboard-widget-editor/dashboard-widget.js
+/wp-content/plugins/admin-menu-editor-pro/extras/modules/dashboard-widget-editor/dashboard-widget.js.map
+/wp-content/plugins/admin-menu-editor-pro/extras/modules/dashboard-widget-editor/dashboard-widget-editor.js
+/wp-content/plugins/admin-menu-editor-pro/extras/modules/dashboard-widget-editor/dashboard-widget-editor.js.map
+/wp-content/plugins/admin-menu-editor-pro/extras/modules/metaboxes/metabox-editor.js
+/wp-content/plugins/admin-menu-editor-pro/extras/modules/metaboxes/metabox-editor.js.map
+/wp-content/plugins/admin-menu-editor-pro/extras/modules/role-editor/role-editor.js
+/wp-content/plugins/admin-menu-editor-pro/extras/modules/role-editor/role-editor.js.map
+/wp-content/plugins/admin-menu-editor-pro/extras/modules/super-users/super-users.js
+/wp-content/plugins/admin-menu-editor-pro/js/actor-manager.js
+/wp-content/plugins/admin-menu-editor-pro/modules/actor-selector/actor-selector.js
+/wp-content/plugins/admin-menu-editor-pro/modules/plugin-visibility/plugin-visibility.js

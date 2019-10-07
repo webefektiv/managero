@@ -1,0 +1,44 @@
+
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin:0;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+#page{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+#homepage{
+	background-size: cover;
+	height:calc(100vh - 110px);
+	font-family: $oswald;
+	.page-header{
+		padding-top: 40px;
+	}
+	.page-title{
+		font-size: 60px;
+		color:#fff;
+		text-transform: uppercase;
+	}
+}
